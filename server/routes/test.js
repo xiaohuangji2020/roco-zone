@@ -1,7 +1,7 @@
 /**
  * 测试路由 - 用于验证路由自动注册功能
  */
-const Router = require('koa-router');
+import Router from 'koa-router';
 const router = new Router({
   prefix: '/test'
 });
@@ -22,4 +22,4 @@ router.get('/info', async (ctx) => {
   };
 });
 
-module.exports = router; 
+export default router; 
