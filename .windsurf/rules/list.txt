@@ -1,0 +1,34 @@
+## 关于node版本
+项目要求使用最新的LTS版的node，操作前记得执行以下命令切换到最新的node版本
+```
+nvm use stable
+```
+
+## 关于项目目录
+项目根目录有两个文件夹server和web
+server对应服务器端；web对应前端
+
+
+## server端
+项目使用node，koa2，koa-router
+路由放在routes文件夹中，index.js会自动扫描
+controller和service都有自己对应的文件夹，做好mvc
+
+返回值格式
+{
+  code: 0,  // 成功为0，失败为-1
+  info: '', // 具体内容，类型为any
+  msg: 'success', // 这里填写错误信息，一般来说code为0时，这里固定为success；code为-1时，根据业务来具体决定
+  timestamp: new Date(),
+}
+
+## web端
+项目使用vue3 + vite + vue-router + pinia + postcss
+
+#### vue文件规范
+1. template在最上方；script在中间，使用setup方式；css在最后使用postcss
+
+
+
+
+
