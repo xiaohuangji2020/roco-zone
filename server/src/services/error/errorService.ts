@@ -3,14 +3,13 @@
  */
 
 import axios from 'axios';
+import type { ErrorData } from '../../types/error/ErrorData.d.ts';
 
 /**
  * 格式化对象为多行文本，处理嵌套对象
- * @param {Object} obj - 要格式化的对象
- * @param {number} indent - 缩进级别
  * @returns {string} - 格式化后的文本
  */
-function formatObjectToText(obj, indent = 2) {
+function formatObjectToText(obj: ErrorData, indent = 2): string {
   if (!obj || typeof obj !== 'object') {
     return String(obj);
   }
@@ -34,15 +33,8 @@ function formatObjectToText(obj, indent = 2) {
 
 /**
  * 记录错误信息
- * @param {Object} errorData - 错误数据
- * @param {string} errorData.msg - 错误消息
- * @param {string} errorData.href - 发生错误的页面URL
- * @param {string} errorData.time - 错误发生时间
- * @param {string} errorData.user - 用户信息
- * @param {string} errorData.ip - 用户IP地址
- * @returns {Promise<Object>} - 处理结果
  */
-async function logError(errorData) {
+async function logError(errorData: ErrorData) {
   // 这里是业务逻辑
   // 例如: 
   // 1. 验证数据
