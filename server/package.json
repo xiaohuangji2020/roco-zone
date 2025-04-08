@@ -2,12 +2,12 @@
   "name": "koa-app",
   "version": "1.0.0",
   "description": "Koa2 示例应用",
-  "main": "app.js",
+  "main": "app.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
-    "dev": "ts-node app.ts"
+    "dev": "nodemon src/app.ts"
   },
   "keywords": [
     "koa",

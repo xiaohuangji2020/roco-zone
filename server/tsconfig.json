@@ -1,13 +1,20 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+  },
+  "ts-node": {
+    "esm": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

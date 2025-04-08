@@ -1,7 +1,7 @@
 /**
  * 错误控制器 - 处理错误相关的请求
  */
-import { logError } from '../../services/error/errorService.js';
+import { logError } from '../../services/error/errorService.ts';
 
 /**
  * 处理错误报告

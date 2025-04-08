@@ -22,7 +22,7 @@ router.get('/', async (ctx) => {
 const files = fs.readdirSync(__dirname);
 for (const file of files) {
   // 排除当前文件和非.js文件
-  if (file !== 'index.js' && file.endsWith('.js')) {
+  if (file !== 'index.ts' && file.endsWith('.ts')) {
     console.log(`加载路由: ${file}`);
     const routePath = path.join(__dirname, file);
     const route = await import(routePath);
