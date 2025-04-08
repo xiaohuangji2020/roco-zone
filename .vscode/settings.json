@@ -1,4 +1,9 @@
 {
   "eslint.format.enable": true,
   "eslint.run": "onSave",
+  "stylelint.validate": [
+      "css",
+      "postcss",
+      "vue"
+  ],
 }

@@ -45,7 +45,11 @@ roco-zone/
 
 ### 使用技术
 server端：nodejs + typescript + koa2 + koa-router
-web端：vue3 + vite2 + typescript
+web端：vue3 + vite2 + typescript + eslint + stylelint
+
+
+### 关于stylelint的配置
+1. stylelint-config-recommended-vue是用来校验vue文件中的css，对应的插件是postcss-html
 
 ### 其他
 

@@ -1,7 +1,7 @@
 import Koa from 'koa';
 import Router from 'koa-router';
 import bodyParser from 'koa-bodyparser';
-import routes from './routes/index.ts';
+import routes from './routers/index.ts';
 
 const app = new Koa();
 const router = new Router();
