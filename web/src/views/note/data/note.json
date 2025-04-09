@@ -16,19 +16,19 @@
         "title": "照片墙",
         "subTitle": "原生js操作dom",
         "demo": "PicWall",
-        "code": "//github.com/xiaohuangji2020/roco-zone/blob/main/src/views/demo/content/PicWall.vue"
+        "code": "//github.com/xiaohuangji2020/roco-zone/blob/master/web/src/views/demo/PicWall.vue"
       },
       {
         "title": "拖尾效果",
         "subTitle": "canvas",
         "demo": "TrailingEffect",
-        "code": "//github.com/xiaohuangji2020/roco-zone/blob/main/src/views/demo/content/TrailingEffect.vue"
+        "code": "//github.com/xiaohuangji2020/roco-zone/blob/master/web/src/views/demo/TrailingEffect.vue"
       },
       {
         "title": "刮刮卡",
         "subTitle": "canvas",
         "demo": "ScratchCard",
-        "code": "//github.com/xiaohuangji2020/roco-zone/blob/main/src/views/demo/content/ScratchCard.vue"
+        "code": "//github.com/xiaohuangji2020/roco-zone/blob/master/web/src/views/demo/ScratchCard.vue"
       }
     ]
   }
