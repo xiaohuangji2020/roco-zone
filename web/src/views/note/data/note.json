@@ -1,0 +1,35 @@
+[
+  {
+    "title": "其他笔记",
+    "notes": [
+      {
+        "title": "代码优化",
+        "subTitle": "令人头疼的代码中的常见问题",
+        "name": "codingbetter"
+      }
+    ]
+  },
+  {
+    "title": "特效笔记",
+    "notes": [
+      {
+        "title": "照片墙",
+        "subTitle": "原生js操作dom",
+        "demo": "picWall",
+        "code": "//github.com/roco2015/roco-zone/blob/main/src/views/demo/content/PicWall.vue"
+      },
+      {
+        "title": "拖尾效果",
+        "subTitle": "canvas",
+        "demo": "trailing",
+        "code": "//github.com/roco2015/roco-zone/blob/main/src/views/demo/content/Trailing.vue"
+      },
+      {
+        "title": "刮刮卡",
+        "subTitle": "canvas",
+        "demo": "scratchCard",
+        "code": "//github.com/roco2015/roco-zone/blob/main/src/views/demo/content/ScratchCard.vue"
+      }
+    ]
+  }
+]
