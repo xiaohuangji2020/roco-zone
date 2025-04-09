@@ -5,7 +5,7 @@
       {
         "title": "代码优化",
         "subTitle": "令人头疼的代码中的常见问题",
-        "name": "codingbetter"
+        "name": "CodingBetter"
       }
     ]
   },
@@ -15,20 +15,20 @@
       {
         "title": "照片墙",
         "subTitle": "原生js操作dom",
-        "demo": "picWall",
-        "code": "//github.com/roco2015/roco-zone/blob/main/src/views/demo/content/PicWall.vue"
+        "demo": "PicWall",
+        "code": "//github.com/xiaohuangji2020/roco-zone/blob/main/src/views/demo/content/PicWall.vue"
       },
       {
         "title": "拖尾效果",
         "subTitle": "canvas",
-        "demo": "trailing",
-        "code": "//github.com/roco2015/roco-zone/blob/main/src/views/demo/content/Trailing.vue"
+        "demo": "TrailingEffect",
+        "code": "//github.com/xiaohuangji2020/roco-zone/blob/main/src/views/demo/content/TrailingEffect.vue"
       },
       {
         "title": "刮刮卡",
         "subTitle": "canvas",
-        "demo": "scratchCard",
-        "code": "//github.com/roco2015/roco-zone/blob/main/src/views/demo/content/ScratchCard.vue"
+        "demo": "ScratchCard",
+        "code": "//github.com/xiaohuangji2020/roco-zone/blob/main/src/views/demo/content/ScratchCard.vue"
       }
     ]
   }

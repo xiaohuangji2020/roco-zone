@@ -1,22 +1,22 @@
 export default [{
   name: 'demo',
   path: '/demo',
-  component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/DemoContainer.vue'),
+  component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/DemoIndex.vue'),
   children: [
     {
-      name: 'picWall',
-      path: '/demo/picwall',
-      component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/content/PicWall.vue'),
+      name: 'PicWall',
+      path: '/demo/Picwall',
+      component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/PicWall.vue'),
     },
     {
-      name: 'trailingEffect',
-      path: '/demo/trailingeffect',
-      component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/content/TrailingEffect.vue'),
+      name: 'TrailingEffect',
+      path: '/demo/Trailingeffect',
+      component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/TrailingEffect.vue'),
     },
     {
-      name: 'scratchCard',
-      path: '/demo/scratchcard',
-      component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/content/ScratchCard.vue'),
+      name: 'ScratchCard',
+      path: '/demo/Scratchcard',
+      component: () => import(/* webpackChunkName: 'demo' */ '@/views/demo/ScratchCard.vue'),
     },
   ],
 }];
